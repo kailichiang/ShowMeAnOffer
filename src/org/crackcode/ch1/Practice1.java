@@ -9,10 +9,9 @@ import java.util.Set;
  * 
  * */
 public class Practice1 {
-	public boolean isUniq(String str) {
+	public static boolean isUniq(String str) {
 		// Set implementation: HashSet, TreeSet, and LinkedHashSet
 		Set<Character> strSet = new HashSet<Character>();
-		
 		int length = str.length();
 		for( int i=0; i<length; i++) {
 			Character ch = str.charAt(i);
