@@ -14,6 +14,7 @@ public class Practice4 {
         Arrays.sort(charStrT);
         String sortedS = new String(charStrS);
         String sortedT = new String(charStrT);
+        // use equals, not "="
         return sortedS.equals(sortedT);
 	}
 }
