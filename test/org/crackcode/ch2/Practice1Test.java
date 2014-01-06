@@ -9,9 +9,10 @@ import org.junit.Test;
 
 public class Practice1Test {
 
-	MyList testList;
+	MyLinkedList testList;
 	Set<Integer> testSet;
 	String listResult;
+	
 	@Test
 	public void testRemoveDup1() {
 		setUp();
@@ -33,7 +34,7 @@ public class Practice1Test {
 	public void setUp() {
 		int [] testData = {1,2,3,2,8,2,4,1,6,7};
 		testSet = new LinkedHashSet<Integer>();
-		testList = new MyList();
+		testList = new MyLinkedList();
 		for( int value : testData) {
 			testList.add(value);
 			testSet.add(value);

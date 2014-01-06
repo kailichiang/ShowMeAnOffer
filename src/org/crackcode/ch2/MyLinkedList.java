@@ -1,11 +1,11 @@
 package org.crackcode.ch2;
 
 
-public class MyList {
+public class MyLinkedList {
 	MyNode head;
 	MyNode tail;
 
-	public MyList() {
+	public MyLinkedList() {
 		head = null;
 		tail = null;
 	}
