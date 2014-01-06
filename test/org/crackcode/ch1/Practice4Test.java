@@ -1,4 +1,4 @@
-package org.crachcode.ch1;
+package org.crackcode.ch1;
 import static org.junit.Assert.*;
 
 import org.crackcode.ch1.Practice4;
