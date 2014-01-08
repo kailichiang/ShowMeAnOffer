@@ -9,8 +9,18 @@ public class MyLinkedList {
 		head = null;
 		tail = null;
 	}
+	
 	public void add(int value) {
 		MyNode node = new MyNode(value);
+		if(head == null) {
+			head = node;
+		} else {
+			tail.setNext(node);
+		}
+		tail = node;
+	}
+
+	public void add(MyNode node) {
 		if(head == null) {
 			head = node;
 		} else {
